@@ -1967,9 +1967,8 @@ if(!message.member.hasPermission('MANAGE_MESSAGES')) return message.reply('لي�
 
 });
 
-/*id img*/
 
-/*
+
 const dateFormat = require('dateformat');
 var Canvas = require('canvas')
 var jimp = require('jimp')
@@ -2191,7 +2190,7 @@ if (message.content.startsWith(prefix + 'نقاطي')) {
   fs.writeFile("./json/awsmm.json", JSON.stringify(points), (err) => {
     if (err) console.error(err)
   })
-});/
+});
 
 /*nickname*/
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
