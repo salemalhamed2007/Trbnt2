@@ -68,7 +68,7 @@ client.on('ready', function(){
     var i = -1;
     var j = 0;
     setInterval(function (){
--            j = 1;
+             j = 1;
         }
         if( i == (setGame.length)-1 ){
             j = -1;
