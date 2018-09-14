@@ -69,7 +69,7 @@ client.on('ready', function(){
     var j = 0;
     setInterval(function (){
              j = 1;
-        }
+        
         if( i == (setGame.length)-1 ){
             j = -1;
         }
